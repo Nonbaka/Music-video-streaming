@@ -64,6 +64,7 @@
     <Compile Include="View\music video\Music_Video.Designer.cs">
       <DependentUpon>Music_Video.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\MusicVid.cs" />
     <Compile Include="View\startpage.cs">
       <SubType>Form</SubType>
     </Compile>

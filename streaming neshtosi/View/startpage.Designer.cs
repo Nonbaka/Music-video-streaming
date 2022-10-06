@@ -41,8 +41,9 @@
             this.btnArtist.Name = "btnArtist";
             this.btnArtist.Size = new System.Drawing.Size(433, 175);
             this.btnArtist.TabIndex = 0;
-            this.btnArtist.Text = "artist";
+            this.btnArtist.Text = "Artist";
             this.btnArtist.UseVisualStyleBackColor = true;
+            this.btnArtist.Click += new System.EventHandler(this.btnArtist_Click);
             // 
             // btnJanr
             // 
@@ -51,8 +52,9 @@
             this.btnJanr.Name = "btnJanr";
             this.btnJanr.Size = new System.Drawing.Size(433, 170);
             this.btnJanr.TabIndex = 1;
-            this.btnJanr.Text = "janr";
+            this.btnJanr.Text = "Genre";
             this.btnJanr.UseVisualStyleBackColor = true;
+            this.btnJanr.Click += new System.EventHandler(this.btnJanr_Click);
             // 
             // btnMusicvideo
             // 
@@ -61,8 +63,9 @@
             this.btnMusicvideo.Name = "btnMusicvideo";
             this.btnMusicvideo.Size = new System.Drawing.Size(433, 170);
             this.btnMusicvideo.TabIndex = 2;
-            this.btnMusicvideo.Text = "music video";
+            this.btnMusicvideo.Text = "Music videos";
             this.btnMusicvideo.UseVisualStyleBackColor = true;
+            this.btnMusicvideo.Click += new System.EventHandler(this.btnMusicvideo_Click);
             // 
             // startpage
             // 
