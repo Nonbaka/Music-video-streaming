@@ -16,5 +16,17 @@ namespace streaming_neshtosi.View.Artist
         {
             InitializeComponent();
         }
+
+        private void Artist_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'musicStreamingDBDataSet.Artist' table. You can move, or remove it, as needed.
+            this.artistTableAdapter.Fill(this.musicStreamingDBDataSet.Artist);
+
+        }
+
+        private void btnCreate1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
